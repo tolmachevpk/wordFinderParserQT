@@ -1,0 +1,4 @@
+/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir
+/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT_autogen.dir

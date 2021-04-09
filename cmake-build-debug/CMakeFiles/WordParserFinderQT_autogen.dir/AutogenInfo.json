@@ -1,0 +1,185 @@
+{
+	"BUILD_DIR" : "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/Peter/CLionProjects/WordParserFinderQT",
+	"CMAKE_EXECUTABLE" : "/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/Users/Peter/CLionProjects/WordParserFinderQT/CMakeLists.txt",
+		"/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Darwin-Initialize.cmake",
+		"/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake",
+		"/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeGenericSystem.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Darwin.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/UnixPaths.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeFindCodeBlocks.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/ProcessorCount.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/AppleClang-C.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/Clang.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/GNU.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-AppleClang-C.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-Clang-C.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-Clang.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCXXInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/AppleClang-CXX.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Compiler/Clang.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-AppleClang-CXX.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-Clang-CXX.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/Platform/Apple-Clang.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeParseArguments.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QCocoaIntegrationPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMacJp2Plugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QVirtualKeyboardPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/Users/Peter/anaconda3/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeParseArguments.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "/Users/Peter/CLionProjects/WordParserFinderQT",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Headers/ahoKorasik.h",
+			"MU",
+			"D2MWKIZDYH/moc_ahoKorasik.cpp"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Headers/lookForMatchesThread.h",
+			"MU",
+			"D2MWKIZDYH/moc_lookForMatchesThread.cpp"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h",
+			"MU",
+			"D2MWKIZDYH/moc_mainWindow.cpp"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Headers/parser.h",
+			"MU",
+			"D2MWKIZDYH/moc_parser.cpp"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h",
+			"MU",
+			"D2MWKIZDYH/moc_structTrie.cpp"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h",
+			"MU",
+			"D2MWKIZDYH/moc_trie.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/Users/Peter/anaconda3/include/qt",
+		"/Users/Peter/anaconda3/include/qt/QtWidgets",
+		"/Users/Peter/anaconda3/include/qt/QtGui",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/OpenGL.framework/Headers",
+		"/Users/Peter/anaconda3/include/qt/QtCore",
+		"/Users/Peter/anaconda3/mkspecs/macx-clang",
+		"/Library/Developer/CommandLineTools/usr/include/c++/v1",
+		"/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include",
+		"/Library/Developer/CommandLineTools/usr/include",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/Library/Developer/CommandLineTools/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/Users/Peter/anaconda3/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/Users/Peter/anaconda3/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/ahoKorasik.cpp",
+			"MU"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/lookForMatchesThread.cpp",
+			"MU"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/main.cpp",
+			"MU"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/mainWindow.cpp",
+			"MU"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/parser.cpp",
+			"MU"
+		],
+		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/trie.cpp",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

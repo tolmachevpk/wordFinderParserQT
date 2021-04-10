@@ -10,6 +10,8 @@
 #include <QObject>
 #include <QGridLayout>
 #include <QMessageBox>
+#include <QMenu>
+#include <QMenuBar>
 #include "lookForMatchesThread.h"
 
 class MainWindow : public QWidget {
@@ -23,6 +25,7 @@ public slots:
     void addToResult(const QString&);
     void finished(const int &k);
     void started();
+    void rerunProgram();
 
 private:
     void startWorkInAThread();
@@ -31,6 +34,8 @@ private:
     QPushButton *confirmButton;
     std::string words;
     QLabel *status;
+    QPushButton *rerunButton;
+    QMenu *fileMenu;
 };
 
 #endif //WORDPARSERFINDER_MAINWINDOW_H

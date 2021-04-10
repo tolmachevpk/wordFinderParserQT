@@ -35,6 +35,14 @@ QLabel
 -
 QObject
 -
+QGridLayout
+-
+QMessageBox
+-
+QMenu
+-
+QMenuBar
+-
 lookForMatchesThread.h
 /Users/Peter/CLionProjects/WordParserFinderQT/Headers/lookForMatchesThread.h
 
@@ -63,52 +71,12 @@ structTrie.h
 /Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h
 string
 -
-
-/Users/Peter/CLionProjects/WordParserFinderQT/Sources/lookForMatchesThread.cpp
-../Headers/lookForMatchesThread.h
-/Users/Peter/CLionProjects/WordParserFinderQT/Headers/lookForMatchesThread.h
+vector
+-
 
 /Users/Peter/CLionProjects/WordParserFinderQT/Sources/mainWindow.cpp
 ../Headers/mainWindow.h
 /Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
-QGridLayout
--
-QMessageBox
--
-
-/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_lookForMatchesThread.cpp
-../../../Headers/lookForMatchesThread.h
-/Users/Peter/CLionProjects/WordParserFinderQT/Headers/lookForMatchesThread.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_mainWindow.cpp
-../../../Headers/mainWindow.h
-/Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
-QtCore/qbytearray.h
--
-QtCore/qmetatype.h
--
-
-/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/mocs_compilation.cpp
-D2MWKIZDYH/moc_lookForMatchesThread.cpp
-/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_lookForMatchesThread.cpp
-D2MWKIZDYH/moc_mainWindow.cpp
-/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_mainWindow.cpp
-
-/Users/Peter/CLionProjects/WordParserFinderQT/main.cpp
-Headers/mainWindow.h
-/Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
-QDebug
--
-QApplication
--
-
-/Users/Peter/anaconda3/include/qt/QtCore/QDebug
-qdebug.h
-/Users/Peter/anaconda3/include/qt/QtCore/qdebug.h
 
 /Users/Peter/anaconda3/include/qt/QtCore/QObject
 qobject.h
@@ -212,20 +180,6 @@ limits.h
 new
 -
 
-/Users/Peter/anaconda3/include/qt/QtCore/qcoreapplication.h
-QtCore/qglobal.h
--
-QtCore/qstring.h
--
-QtCore/qobject.h
--
-QtCore/qcoreevent.h
--
-QtCore/qeventloop.h
--
-QtCore/qscopedpointer.h
--
-
 /Users/Peter/anaconda3/include/qt/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
@@ -272,10 +226,6 @@ list
 map
 -
 utility
--
-
-/Users/Peter/anaconda3/include/qt/QtCore/qeventloop.h
-QtCore/qobject.h
 -
 
 /Users/Peter/anaconda3/include/qt/QtCore/qfile.h
@@ -902,22 +852,6 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
-/Users/Peter/anaconda3/include/qt/QtGui/qguiapplication.h
-QtGui/qtguiglobal.h
--
-QtCore/qcoreapplication.h
--
-QtGui/qwindowdefs.h
--
-QtGui/qinputmethod.h
--
-QtCore/qlocale.h
--
-QtCore/qpoint.h
--
-QtCore/qsize.h
--
-
 /Users/Peter/anaconda3/include/qt/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
@@ -948,12 +882,6 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
--
-
-/Users/Peter/anaconda3/include/qt/QtGui/qinputmethod.h
-QtGui/qtguiglobal.h
--
-QtCore/qobject.h
 -
 
 /Users/Peter/anaconda3/include/qt/QtGui/qkeysequence.h
@@ -1190,10 +1118,6 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
-/Users/Peter/anaconda3/include/qt/QtWidgets/QApplication
-qapplication.h
-/Users/Peter/anaconda3/include/qt/QtWidgets/qapplication.h
-
 /Users/Peter/anaconda3/include/qt/QtWidgets/QGridLayout
 qgridlayout.h
 /Users/Peter/anaconda3/include/qt/QtWidgets/qgridlayout.h
@@ -1205,6 +1129,14 @@ qlabel.h
 /Users/Peter/anaconda3/include/qt/QtWidgets/QLineEdit
 qlineedit.h
 /Users/Peter/anaconda3/include/qt/QtWidgets/qlineedit.h
+
+/Users/Peter/anaconda3/include/qt/QtWidgets/QMenu
+qmenu.h
+/Users/Peter/anaconda3/include/qt/QtWidgets/qmenu.h
+
+/Users/Peter/anaconda3/include/qt/QtWidgets/QMenuBar
+qmenubar.h
+/Users/Peter/anaconda3/include/qt/QtWidgets/qmenubar.h
 
 /Users/Peter/anaconda3/include/qt/QtWidgets/QMessageBox
 qmessagebox.h
@@ -1238,22 +1170,26 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qframe.h
 -
 
-/Users/Peter/anaconda3/include/qt/QtWidgets/qapplication.h
+/Users/Peter/anaconda3/include/qt/QtWidgets/qaction.h
 QtWidgets/qtwidgetsglobal.h
 -
-QtCore/qcoreapplication.h
+QtGui/qkeysequence.h
 -
-QtGui/qwindowdefs.h
+QtCore/qstring.h
 -
-QtCore/qpoint.h
+QtWidgets/qwidget.h
 -
-QtCore/qsize.h
+QtCore/qvariant.h
 -
-QtGui/qcursor.h
+QtGui/qicon.h
 -
-QtWidgets/qdesktopwidget.h
+QtWidgets/qactiongroup.h
 -
-QtGui/qguiapplication.h
+
+/Users/Peter/anaconda3/include/qt/QtWidgets/qactiongroup.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qaction.h
 -
 
 /Users/Peter/anaconda3/include/qt/QtWidgets/qboxlayout.h
@@ -1264,12 +1200,6 @@ QtWidgets/qlayout.h
 QtWidgets/qwidget.h
 -
 limits.h
--
-
-/Users/Peter/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
 -
 
 /Users/Peter/anaconda3/include/qt/QtWidgets/qdialog.h
@@ -1340,6 +1270,24 @@ QtGui/qtextcursor.h
 QtCore/qstring.h
 -
 QtCore/qmargins.h
+-
+
+/Users/Peter/anaconda3/include/qt/QtWidgets/qmenu.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+QtCore/qstring.h
+-
+QtGui/qicon.h
+-
+QtWidgets/qaction.h
+-
+
+/Users/Peter/anaconda3/include/qt/QtWidgets/qmenubar.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qmenu.h
 -
 
 /Users/Peter/anaconda3/include/qt/QtWidgets/qmessagebox.h

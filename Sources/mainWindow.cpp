@@ -14,6 +14,13 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
     confirmButton->show();
     connect(confirmButton, &QPushButton::clicked, this, &MainWindow::rememberWordsForString);
 
+    QMenu * rerunMenu = new QMenu("&Rerun");
+    rerunMenu->addAction("&Rerun program", this, SLOT(rerunProgram()),
+                         Qt::CTRL + Qt::Key_R);
+
+    QMenuBar *menuBar = new QMenuBar;
+    menuBar->addMenu(rerunMenu);
+
     QGridLayout *mainLayout = new QGridLayout;
     mainLayout->addWidget(nameLabel, 0, 0);
     mainLayout->addWidget(wroteWords, 0, 1);
@@ -21,10 +28,19 @@ MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
     mainLayout->addWidget(foundResult, 1, 1);
     mainLayout->addWidget(confirmButton, 1, 2, Qt::AlignTop);
     mainLayout->addWidget(status, 0, 2);
+    mainLayout->setMenuBar(menuBar);
 
-    resize(1000, 700);
+    resize(1100, 700);
     setLayout(mainLayout);
     setWindowTitle(tr("Word Finder"));
+}
+
+void MainWindow::rerunProgram() {
+    foundResult->clear();
+    wroteWords->clear();
+    wroteWords->setReadOnly(false);
+    confirmButton->setEnabled(true);
+    status->setText(tr("Waiting words..."));
 }
 
 void MainWindow::rememberWordsForString() {
@@ -57,7 +73,7 @@ void MainWindow::started() {
 }
 
 void MainWindow::finished(const int &k) {
-    std::string res =  "Finished!\nCount of words: " + std::to_string(k);
+    std::string res =  "Finished! Count\nof words: " + std::to_string(k);
     status->setText(QString::fromStdString(res));
 }
 

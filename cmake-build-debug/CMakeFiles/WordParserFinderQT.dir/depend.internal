@@ -180,12 +180,16 @@ CMakeFiles/WordParserFinderQT.dir/Sources/mainWindow.cpp.o
  /Users/Peter/anaconda3/include/qt/QtWidgets/QGridLayout
  /Users/Peter/anaconda3/include/qt/QtWidgets/QLabel
  /Users/Peter/anaconda3/include/qt/QtWidgets/QLineEdit
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QMenu
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QMenuBar
  /Users/Peter/anaconda3/include/qt/QtWidgets/QMessageBox
  /Users/Peter/anaconda3/include/qt/QtWidgets/QPushButton
  /Users/Peter/anaconda3/include/qt/QtWidgets/QTextEdit
  /Users/Peter/anaconda3/include/qt/QtWidgets/QWidget
  /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractbutton.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qaction.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qactiongroup.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qboxlayout.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qdialog.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qframe.h
@@ -194,6 +198,8 @@ CMakeFiles/WordParserFinderQT.dir/Sources/mainWindow.cpp.o
  /Users/Peter/anaconda3/include/qt/QtWidgets/qlayout.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qlayoutitem.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qmenu.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qmenubar.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qmessagebox.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qpushbutton.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qsizepolicy.h
@@ -329,16 +335,30 @@ CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cp
  /Users/Peter/anaconda3/include/qt/QtGui/qvector2d.h
  /Users/Peter/anaconda3/include/qt/QtGui/qwindowdefs.h
  /Users/Peter/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QGridLayout
  /Users/Peter/anaconda3/include/qt/QtWidgets/QLabel
  /Users/Peter/anaconda3/include/qt/QtWidgets/QLineEdit
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QMenu
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QMenuBar
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QMessageBox
  /Users/Peter/anaconda3/include/qt/QtWidgets/QPushButton
  /Users/Peter/anaconda3/include/qt/QtWidgets/QTextEdit
  /Users/Peter/anaconda3/include/qt/QtWidgets/QWidget
  /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractbutton.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qaction.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qactiongroup.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qboxlayout.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qdialog.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qframe.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qgridlayout.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qlabel.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qlayout.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qlayoutitem.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qmenu.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qmenubar.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qmessagebox.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qpushbutton.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qsizepolicy.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qtextedit.h
@@ -464,18 +484,32 @@ CMakeFiles/WordParserFinderQT.dir/main.cpp.o
  /Users/Peter/anaconda3/include/qt/QtGui/qwindowdefs.h
  /Users/Peter/anaconda3/include/qt/QtGui/qwindowdefs_win.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/QApplication
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QGridLayout
  /Users/Peter/anaconda3/include/qt/QtWidgets/QLabel
  /Users/Peter/anaconda3/include/qt/QtWidgets/QLineEdit
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QMenu
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QMenuBar
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QMessageBox
  /Users/Peter/anaconda3/include/qt/QtWidgets/QPushButton
  /Users/Peter/anaconda3/include/qt/QtWidgets/QTextEdit
  /Users/Peter/anaconda3/include/qt/QtWidgets/QWidget
  /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractbutton.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qaction.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qactiongroup.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qapplication.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qboxlayout.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qdialog.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qframe.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qgridlayout.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qlabel.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qlayout.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qlayoutitem.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qmenu.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qmenubar.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qmessagebox.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qpushbutton.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qsizepolicy.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qtextedit.h

@@ -6,11 +6,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/Peter/CLionProjects/WordParserFinderQT/Sources/ahoKorasik.cpp" "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir/Sources/ahoKorasik.cpp.o"
   "/Users/Peter/CLionProjects/WordParserFinderQT/Sources/lookForMatchesThread.cpp" "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.o"
-  "/Users/Peter/CLionProjects/WordParserFinderQT/Sources/main.cpp" "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o"
   "/Users/Peter/CLionProjects/WordParserFinderQT/Sources/mainWindow.cpp" "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir/Sources/mainWindow.cpp.o"
   "/Users/Peter/CLionProjects/WordParserFinderQT/Sources/parser.cpp" "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir/Sources/parser.cpp.o"
+  "/Users/Peter/CLionProjects/WordParserFinderQT/Sources/tolower.cpp" "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o"
   "/Users/Peter/CLionProjects/WordParserFinderQT/Sources/trie.cpp" "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir/Sources/trie.cpp.o"
   "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/mocs_compilation.cpp" "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cpp.o"
+  "/Users/Peter/CLionProjects/WordParserFinderQT/main.cpp" "/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles/WordParserFinderQT.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

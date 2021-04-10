@@ -1,5 +1,4 @@
 #include "../Headers/trie.h"
-#include <vector>
 
 MakeTrie::MakeTrie(const std::string& s) {
     Parser *pars = new Parser(s);

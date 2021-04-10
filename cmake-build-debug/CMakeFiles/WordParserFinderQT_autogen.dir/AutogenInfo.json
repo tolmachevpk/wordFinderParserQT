@@ -99,6 +99,11 @@
 			"D2MWKIZDYH/moc_structTrie.cpp"
 		],
 		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h",
+			"MU",
+			"D2MWKIZDYH/moc_tolower.cpp"
+		],
+		[
 			"/Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h",
 			"MU",
 			"D2MWKIZDYH/moc_trie.cpp"
@@ -161,10 +166,6 @@
 			"MU"
 		],
 		[
-			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/main.cpp",
-			"MU"
-		],
-		[
 			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/mainWindow.cpp",
 			"MU"
 		],
@@ -173,9 +174,14 @@
 			"MU"
 		],
 		[
+			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/tolower.cpp",
+			"MU"
+		],
+		[
 			"/Users/Peter/CLionProjects/WordParserFinderQT/Sources/trie.cpp",
 			"MU"
-		]
+		],
+		[ "/Users/Peter/CLionProjects/WordParserFinderQT/main.cpp", "MU" ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

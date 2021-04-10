@@ -4,11 +4,12 @@ file(REMOVE_RECURSE
   "WordParserFinderQT_autogen"
   "CMakeFiles/WordParserFinderQT.dir/Sources/ahoKorasik.cpp.o"
   "CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.o"
-  "CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o"
   "CMakeFiles/WordParserFinderQT.dir/Sources/mainWindow.cpp.o"
   "CMakeFiles/WordParserFinderQT.dir/Sources/parser.cpp.o"
+  "CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o"
   "CMakeFiles/WordParserFinderQT.dir/Sources/trie.cpp.o"
   "CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cpp.o"
+  "CMakeFiles/WordParserFinderQT.dir/main.cpp.o"
   "WordParserFinderQT"
   "WordParserFinderQT.pdb"
 )

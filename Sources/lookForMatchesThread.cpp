@@ -13,15 +13,19 @@ void WorkerThread::run() {
 
     emit startCalculating();
 
+    int count = 0;
+    Tolower newTolower;
     std::string line;
     while (fin >> line) {
         std::string result;
+        newTolower.makeLower(line);
         result = g->algorithmRealization(line);
         if (!result.empty()) {
+            count++;
             emit foundWords(QString::fromStdString(line));
         }
     }
     fin.close();
-    emit finishedCalculating();
+    emit finishedCalculating(count);
 }
 

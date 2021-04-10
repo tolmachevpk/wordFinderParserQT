@@ -20,9 +20,8 @@ void Parser::parser(std::string& s) {
 }
 
 void Parser::toLower(std::string &s) {
-    for (int i = 0; i < s.length(); i++) {
-        s[i] = tolower(s[i]);
-    }
+    Tolower newTolower;
+    newTolower.makeLower(s);
 }
 
 std::vector<std::string> Parser::getWords() {

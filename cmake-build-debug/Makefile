@@ -209,33 +209,6 @@ Sources/lookForMatchesThread.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.s
 .PHONY : Sources/lookForMatchesThread.cpp.s
 
-Sources/main.o: Sources/main.cpp.o
-
-.PHONY : Sources/main.o
-
-# target to build an object file
-Sources/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o
-.PHONY : Sources/main.cpp.o
-
-Sources/main.i: Sources/main.cpp.i
-
-.PHONY : Sources/main.i
-
-# target to preprocess a source file
-Sources/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.i
-.PHONY : Sources/main.cpp.i
-
-Sources/main.s: Sources/main.cpp.s
-
-.PHONY : Sources/main.s
-
-# target to generate assembly for a file
-Sources/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.s
-.PHONY : Sources/main.cpp.s
-
 Sources/mainWindow.o: Sources/mainWindow.cpp.o
 
 .PHONY : Sources/mainWindow.o
@@ -289,6 +262,33 @@ Sources/parser.s: Sources/parser.cpp.s
 Sources/parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/Sources/parser.cpp.s
 .PHONY : Sources/parser.cpp.s
+
+Sources/tolower.o: Sources/tolower.cpp.o
+
+.PHONY : Sources/tolower.o
+
+# target to build an object file
+Sources/tolower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o
+.PHONY : Sources/tolower.cpp.o
+
+Sources/tolower.i: Sources/tolower.cpp.i
+
+.PHONY : Sources/tolower.i
+
+# target to preprocess a source file
+Sources/tolower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.i
+.PHONY : Sources/tolower.cpp.i
+
+Sources/tolower.s: Sources/tolower.cpp.s
+
+.PHONY : Sources/tolower.s
+
+# target to generate assembly for a file
+Sources/tolower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.s
+.PHONY : Sources/tolower.cpp.s
 
 Sources/trie.o: Sources/trie.cpp.o
 
@@ -344,6 +344,33 @@ WordParserFinderQT_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cpp.s
 .PHONY : WordParserFinderQT_autogen/mocs_compilation.cpp.s
 
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WordParserFinderQT.dir/build.make CMakeFiles/WordParserFinderQT.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -360,21 +387,24 @@ help:
 	@echo "... Sources/lookForMatchesThread.o"
 	@echo "... Sources/lookForMatchesThread.i"
 	@echo "... Sources/lookForMatchesThread.s"
-	@echo "... Sources/main.o"
-	@echo "... Sources/main.i"
-	@echo "... Sources/main.s"
 	@echo "... Sources/mainWindow.o"
 	@echo "... Sources/mainWindow.i"
 	@echo "... Sources/mainWindow.s"
 	@echo "... Sources/parser.o"
 	@echo "... Sources/parser.i"
 	@echo "... Sources/parser.s"
+	@echo "... Sources/tolower.o"
+	@echo "... Sources/tolower.i"
+	@echo "... Sources/tolower.s"
 	@echo "... Sources/trie.o"
 	@echo "... Sources/trie.i"
 	@echo "... Sources/trie.s"
 	@echo "... WordParserFinderQT_autogen/mocs_compilation.o"
 	@echo "... WordParserFinderQT_autogen/mocs_compilation.i"
 	@echo "... WordParserFinderQT_autogen/mocs_compilation.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

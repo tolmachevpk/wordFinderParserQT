@@ -1,8 +1,10 @@
 #ifndef WORDPARSERFINDER_TRIE_H
 #define WORDPARSERFINDER_TRIE_H
+
 #include "parser.h"
 #include "structTrie.h"
 #include <string>
+#include <vector>
 
 class MakeTrie {
 public:

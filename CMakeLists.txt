@@ -11,7 +11,7 @@ set(REQUIRED_LIBS Core)
 set(REQUIRED_LIBS_QUALIFIED Qt5::Core)
 find_package(Qt5Widgets REQUIRED)
 
-add_executable(${PROJECT_NAME} Sources/main.cpp Headers/trie.h Sources/trie.cpp Headers/structTrie.h Headers/parser.h Sources/parser.cpp Headers/ahoKorasik.h Sources/ahoKorasik.cpp Headers/mainWindow.h Sources/mainWindow.cpp Headers/lookForMatchesThread.h Sources/lookForMatchesThread.cpp)
+add_executable(${PROJECT_NAME} main.cpp Headers/trie.h Sources/trie.cpp Headers/structTrie.h Headers/parser.h Sources/parser.cpp Headers/ahoKorasik.h Sources/ahoKorasik.cpp Headers/mainWindow.h Sources/mainWindow.cpp Headers/lookForMatchesThread.h Sources/lookForMatchesThread.cpp Headers/tolower.h Sources/tolower.cpp)
 
 if (NOT CMAKE_PREFIX_PATH)
     message(WARNING "CMAKE_PREFIX_PATH is not defined, you may need to set it "

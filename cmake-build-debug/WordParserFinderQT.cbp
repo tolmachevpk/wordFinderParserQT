@@ -125,6 +125,9 @@
 		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h">
 			<Option target="WordParserFinderQT"/>
 		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h">
+			<Option target="WordParserFinderQT"/>
+		</Unit>
 		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h">
 			<Option target="WordParserFinderQT"/>
 		</Unit>
@@ -134,19 +137,22 @@
 		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/Sources/lookForMatchesThread.cpp">
 			<Option target="WordParserFinderQT"/>
 		</Unit>
-		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/Sources/main.cpp">
-			<Option target="WordParserFinderQT"/>
-		</Unit>
 		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/Sources/mainWindow.cpp">
 			<Option target="WordParserFinderQT"/>
 		</Unit>
 		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/Sources/parser.cpp">
 			<Option target="WordParserFinderQT"/>
 		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/Sources/tolower.cpp">
+			<Option target="WordParserFinderQT"/>
+		</Unit>
 		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/Sources/trie.cpp">
 			<Option target="WordParserFinderQT"/>
 		</Unit>
 		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/mocs_compilation.cpp">
+			<Option target="WordParserFinderQT"/>
+		</Unit>
+		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/main.cpp">
 			<Option target="WordParserFinderQT"/>
 		</Unit>
 		<Unit filename="/Users/Peter/CLionProjects/WordParserFinderQT/CMakeLists.txt">

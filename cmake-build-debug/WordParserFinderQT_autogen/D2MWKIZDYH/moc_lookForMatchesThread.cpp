@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_WorkerThread_t {
-    QByteArrayData data[6];
-    char stringdata0[67];
+    QByteArrayData data[7];
+    char stringdata0[73];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -36,11 +36,13 @@ QT_MOC_LITERAL(1, 13, 10), // "foundWords"
 QT_MOC_LITERAL(2, 24, 0), // ""
 QT_MOC_LITERAL(3, 25, 4), // "line"
 QT_MOC_LITERAL(4, 30, 16), // "startCalculating"
-QT_MOC_LITERAL(5, 47, 19) // "finishedCalculating"
+QT_MOC_LITERAL(5, 47, 19), // "finishedCalculating"
+QT_MOC_LITERAL(6, 67, 5) // "count"
 
     },
     "WorkerThread\0foundWords\0\0line\0"
-    "startCalculating\0finishedCalculating"
+    "startCalculating\0finishedCalculating\0"
+    "count"
 };
 #undef QT_MOC_LITERAL
 
@@ -60,12 +62,12 @@ static const uint qt_meta_data_WorkerThread[] = {
  // signals: name, argc, parameters, tag, flags
        1,    1,   29,    2, 0x06 /* Public */,
        4,    0,   32,    2, 0x06 /* Public */,
-       5,    0,   33,    2, 0x06 /* Public */,
+       5,    1,   33,    2, 0x06 /* Public */,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
     QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,    6,
 
        0        // eod
 };
@@ -78,7 +80,7 @@ void WorkerThread::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         switch (_id) {
         case 0: _t->foundWords((*reinterpret_cast< QString(*)>(_a[1]))); break;
         case 1: _t->startCalculating(); break;
-        case 2: _t->finishedCalculating(); break;
+        case 2: _t->finishedCalculating((*reinterpret_cast< const int(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -98,7 +100,7 @@ void WorkerThread::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
             }
         }
         {
-            typedef void (WorkerThread::*_t)();
+            typedef void (WorkerThread::*_t)(const int & );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&WorkerThread::finishedCalculating)) {
                 *result = 2;
                 return;
@@ -157,9 +159,10 @@ void WorkerThread::startCalculating()
 }
 
 // SIGNAL 2
-void WorkerThread::finishedCalculating()
+void WorkerThread::finishedCalculating(const int & _t1)
 {
-    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

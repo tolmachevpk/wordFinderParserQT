@@ -5,6 +5,7 @@ CMakeFiles/WordParserFinderQT.dir/Sources/ahoKorasik.cpp.o
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/ahoKorasik.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/parser.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Sources/ahoKorasik.cpp
 CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.o
@@ -12,6 +13,7 @@ CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.o
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/lookForMatchesThread.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/parser.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Sources/lookForMatchesThread.cpp
  /Users/Peter/anaconda3/include/qt/QtCore/QThread
@@ -62,148 +64,13 @@ CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.o
  /Users/Peter/anaconda3/include/qt/QtCore/qtypeinfo.h
  /Users/Peter/anaconda3/include/qt/QtCore/qvarlengtharray.h
  /Users/Peter/anaconda3/include/qt/QtCore/qversiontagging.h
-CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o
- /Users/Peter/CLionProjects/WordParserFinderQT/Headers/ahoKorasik.h
- /Users/Peter/CLionProjects/WordParserFinderQT/Headers/lookForMatchesThread.h
- /Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
- /Users/Peter/CLionProjects/WordParserFinderQT/Headers/parser.h
- /Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h
- /Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h
- /Users/Peter/CLionProjects/WordParserFinderQT/Sources/main.cpp
- /Users/Peter/anaconda3/include/qt/QtCore/QDebug
- /Users/Peter/anaconda3/include/qt/QtCore/QObject
- /Users/Peter/anaconda3/include/qt/QtCore/QThread
- /Users/Peter/anaconda3/include/qt/QtCore/qalgorithms.h
- /Users/Peter/anaconda3/include/qt/QtCore/qarraydata.h
- /Users/Peter/anaconda3/include/qt/QtCore/qatomic.h
- /Users/Peter/anaconda3/include/qt/QtCore/qatomic_bootstrap.h
- /Users/Peter/anaconda3/include/qt/QtCore/qatomic_cxx11.h
- /Users/Peter/anaconda3/include/qt/QtCore/qatomic_msvc.h
- /Users/Peter/anaconda3/include/qt/QtCore/qbasicatomic.h
- /Users/Peter/anaconda3/include/qt/QtCore/qbytearray.h
- /Users/Peter/anaconda3/include/qt/QtCore/qbytearraylist.h
- /Users/Peter/anaconda3/include/qt/QtCore/qchar.h
- /Users/Peter/anaconda3/include/qt/QtCore/qcompilerdetection.h
- /Users/Peter/anaconda3/include/qt/QtCore/qconfig-bootstrapped.h
- /Users/Peter/anaconda3/include/qt/QtCore/qconfig.h
- /Users/Peter/anaconda3/include/qt/QtCore/qcontainerfwd.h
- /Users/Peter/anaconda3/include/qt/QtCore/qcontiguouscache.h
- /Users/Peter/anaconda3/include/qt/QtCore/qcoreapplication.h
- /Users/Peter/anaconda3/include/qt/QtCore/qcoreevent.h
- /Users/Peter/anaconda3/include/qt/QtCore/qdatastream.h
- /Users/Peter/anaconda3/include/qt/QtCore/qdebug.h
- /Users/Peter/anaconda3/include/qt/QtCore/qeventloop.h
- /Users/Peter/anaconda3/include/qt/QtCore/qfile.h
- /Users/Peter/anaconda3/include/qt/QtCore/qfiledevice.h
- /Users/Peter/anaconda3/include/qt/QtCore/qflags.h
- /Users/Peter/anaconda3/include/qt/QtCore/qgenericatomic.h
- /Users/Peter/anaconda3/include/qt/QtCore/qglobal.h
- /Users/Peter/anaconda3/include/qt/QtCore/qglobalstatic.h
- /Users/Peter/anaconda3/include/qt/QtCore/qhash.h
- /Users/Peter/anaconda3/include/qt/QtCore/qhashfunctions.h
- /Users/Peter/anaconda3/include/qt/QtCore/qiodevice.h
- /Users/Peter/anaconda3/include/qt/QtCore/qiterator.h
- /Users/Peter/anaconda3/include/qt/QtCore/qline.h
- /Users/Peter/anaconda3/include/qt/QtCore/qlist.h
- /Users/Peter/anaconda3/include/qt/QtCore/qlocale.h
- /Users/Peter/anaconda3/include/qt/QtCore/qlogging.h
- /Users/Peter/anaconda3/include/qt/QtCore/qmap.h
- /Users/Peter/anaconda3/include/qt/QtCore/qmargins.h
- /Users/Peter/anaconda3/include/qt/QtCore/qmetatype.h
- /Users/Peter/anaconda3/include/qt/QtCore/qmutex.h
- /Users/Peter/anaconda3/include/qt/QtCore/qnamespace.h
- /Users/Peter/anaconda3/include/qt/QtCore/qnumeric.h
- /Users/Peter/anaconda3/include/qt/QtCore/qobject.h
- /Users/Peter/anaconda3/include/qt/QtCore/qobject_impl.h
- /Users/Peter/anaconda3/include/qt/QtCore/qobjectdefs.h
- /Users/Peter/anaconda3/include/qt/QtCore/qobjectdefs_impl.h
- /Users/Peter/anaconda3/include/qt/QtCore/qpair.h
- /Users/Peter/anaconda3/include/qt/QtCore/qpoint.h
- /Users/Peter/anaconda3/include/qt/QtCore/qprocessordetection.h
- /Users/Peter/anaconda3/include/qt/QtCore/qrect.h
- /Users/Peter/anaconda3/include/qt/QtCore/qrefcount.h
- /Users/Peter/anaconda3/include/qt/QtCore/qregexp.h
- /Users/Peter/anaconda3/include/qt/QtCore/qscopedpointer.h
- /Users/Peter/anaconda3/include/qt/QtCore/qset.h
- /Users/Peter/anaconda3/include/qt/QtCore/qshareddata.h
- /Users/Peter/anaconda3/include/qt/QtCore/qsharedpointer.h
- /Users/Peter/anaconda3/include/qt/QtCore/qsharedpointer_impl.h
- /Users/Peter/anaconda3/include/qt/QtCore/qsize.h
- /Users/Peter/anaconda3/include/qt/QtCore/qstring.h
- /Users/Peter/anaconda3/include/qt/QtCore/qstringbuilder.h
- /Users/Peter/anaconda3/include/qt/QtCore/qstringlist.h
- /Users/Peter/anaconda3/include/qt/QtCore/qstringmatcher.h
- /Users/Peter/anaconda3/include/qt/QtCore/qsysinfo.h
- /Users/Peter/anaconda3/include/qt/QtCore/qsystemdetection.h
- /Users/Peter/anaconda3/include/qt/QtCore/qtcore-config.h
- /Users/Peter/anaconda3/include/qt/QtCore/qtextstream.h
- /Users/Peter/anaconda3/include/qt/QtCore/qthread.h
- /Users/Peter/anaconda3/include/qt/QtCore/qtypeinfo.h
- /Users/Peter/anaconda3/include/qt/QtCore/qurl.h
- /Users/Peter/anaconda3/include/qt/QtCore/qurlquery.h
- /Users/Peter/anaconda3/include/qt/QtCore/qvariant.h
- /Users/Peter/anaconda3/include/qt/QtCore/qvarlengtharray.h
- /Users/Peter/anaconda3/include/qt/QtCore/qvector.h
- /Users/Peter/anaconda3/include/qt/QtCore/qversiontagging.h
- /Users/Peter/anaconda3/include/qt/QtGui/qbrush.h
- /Users/Peter/anaconda3/include/qt/QtGui/qcolor.h
- /Users/Peter/anaconda3/include/qt/QtGui/qcursor.h
- /Users/Peter/anaconda3/include/qt/QtGui/qevent.h
- /Users/Peter/anaconda3/include/qt/QtGui/qfont.h
- /Users/Peter/anaconda3/include/qt/QtGui/qfontinfo.h
- /Users/Peter/anaconda3/include/qt/QtGui/qfontmetrics.h
- /Users/Peter/anaconda3/include/qt/QtGui/qguiapplication.h
- /Users/Peter/anaconda3/include/qt/QtGui/qicon.h
- /Users/Peter/anaconda3/include/qt/QtGui/qimage.h
- /Users/Peter/anaconda3/include/qt/QtGui/qinputmethod.h
- /Users/Peter/anaconda3/include/qt/QtGui/qkeysequence.h
- /Users/Peter/anaconda3/include/qt/QtGui/qmatrix.h
- /Users/Peter/anaconda3/include/qt/QtGui/qpaintdevice.h
- /Users/Peter/anaconda3/include/qt/QtGui/qpainterpath.h
- /Users/Peter/anaconda3/include/qt/QtGui/qpalette.h
- /Users/Peter/anaconda3/include/qt/QtGui/qpen.h
- /Users/Peter/anaconda3/include/qt/QtGui/qpixelformat.h
- /Users/Peter/anaconda3/include/qt/QtGui/qpixmap.h
- /Users/Peter/anaconda3/include/qt/QtGui/qpolygon.h
- /Users/Peter/anaconda3/include/qt/QtGui/qregion.h
- /Users/Peter/anaconda3/include/qt/QtGui/qrgb.h
- /Users/Peter/anaconda3/include/qt/QtGui/qrgba64.h
- /Users/Peter/anaconda3/include/qt/QtGui/qtextcursor.h
- /Users/Peter/anaconda3/include/qt/QtGui/qtextdocument.h
- /Users/Peter/anaconda3/include/qt/QtGui/qtextformat.h
- /Users/Peter/anaconda3/include/qt/QtGui/qtextoption.h
- /Users/Peter/anaconda3/include/qt/QtGui/qtgui-config.h
- /Users/Peter/anaconda3/include/qt/QtGui/qtguiglobal.h
- /Users/Peter/anaconda3/include/qt/QtGui/qtouchdevice.h
- /Users/Peter/anaconda3/include/qt/QtGui/qtransform.h
- /Users/Peter/anaconda3/include/qt/QtGui/qvector2d.h
- /Users/Peter/anaconda3/include/qt/QtGui/qwindowdefs.h
- /Users/Peter/anaconda3/include/qt/QtGui/qwindowdefs_win.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/QApplication
- /Users/Peter/anaconda3/include/qt/QtWidgets/QLabel
- /Users/Peter/anaconda3/include/qt/QtWidgets/QLineEdit
- /Users/Peter/anaconda3/include/qt/QtWidgets/QPushButton
- /Users/Peter/anaconda3/include/qt/QtWidgets/QTextEdit
- /Users/Peter/anaconda3/include/qt/QtWidgets/QWidget
- /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractbutton.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qapplication.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qframe.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qlabel.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qlineedit.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qpushbutton.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qsizepolicy.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qtextedit.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
- /Users/Peter/anaconda3/include/qt/QtWidgets/qwidget.h
 CMakeFiles/WordParserFinderQT.dir/Sources/mainWindow.cpp.o
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/ahoKorasik.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/lookForMatchesThread.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/parser.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Sources/mainWindow.cpp
  /Users/Peter/anaconda3/include/qt/QtCore/QObject
@@ -336,10 +203,15 @@ CMakeFiles/WordParserFinderQT.dir/Sources/mainWindow.cpp.o
  /Users/Peter/anaconda3/include/qt/QtWidgets/qwidget.h
 CMakeFiles/WordParserFinderQT.dir/Sources/parser.cpp.o
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/parser.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Sources/parser.cpp
+CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Sources/tolower.cpp
 CMakeFiles/WordParserFinderQT.dir/Sources/trie.cpp.o
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/parser.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Sources/trie.cpp
 CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cpp.o
@@ -348,6 +220,7 @@ CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cp
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/parser.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h
  /Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h
  /Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_lookForMatchesThread.cpp
  /Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_mainWindow.cpp
@@ -463,6 +336,143 @@ CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cp
  /Users/Peter/anaconda3/include/qt/QtWidgets/QWidget
  /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractbutton.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qframe.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qlabel.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qlineedit.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qpushbutton.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qsizepolicy.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qtextedit.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qtwidgets-config.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qtwidgetsglobal.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qwidget.h
+CMakeFiles/WordParserFinderQT.dir/main.cpp.o
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/ahoKorasik.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/lookForMatchesThread.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/parser.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/structTrie.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/tolower.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/Headers/trie.h
+ /Users/Peter/CLionProjects/WordParserFinderQT/main.cpp
+ /Users/Peter/anaconda3/include/qt/QtCore/QDebug
+ /Users/Peter/anaconda3/include/qt/QtCore/QObject
+ /Users/Peter/anaconda3/include/qt/QtCore/QThread
+ /Users/Peter/anaconda3/include/qt/QtCore/qalgorithms.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qarraydata.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qatomic.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qatomic_bootstrap.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qatomic_cxx11.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qatomic_msvc.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qbasicatomic.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qbytearray.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qbytearraylist.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qchar.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qcompilerdetection.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qconfig-bootstrapped.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qconfig.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qcontainerfwd.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qcontiguouscache.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qcoreapplication.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qcoreevent.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qdatastream.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qdebug.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qeventloop.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qfile.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qfiledevice.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qflags.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qgenericatomic.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qglobal.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qglobalstatic.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qhash.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qhashfunctions.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qiodevice.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qiterator.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qline.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qlist.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qlocale.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qlogging.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qmap.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qmargins.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qmetatype.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qmutex.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qnamespace.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qnumeric.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qobject.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qobject_impl.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qobjectdefs.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qobjectdefs_impl.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qpair.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qpoint.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qprocessordetection.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qrect.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qrefcount.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qregexp.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qscopedpointer.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qset.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qshareddata.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qsharedpointer.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qsharedpointer_impl.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qsize.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qstring.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qstringbuilder.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qstringlist.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qstringmatcher.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qsysinfo.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qsystemdetection.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qtcore-config.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qtextstream.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qthread.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qtypeinfo.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qurl.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qurlquery.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qvariant.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qvarlengtharray.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qvector.h
+ /Users/Peter/anaconda3/include/qt/QtCore/qversiontagging.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qbrush.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qcolor.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qcursor.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qevent.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qfont.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qfontinfo.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qfontmetrics.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qguiapplication.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qicon.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qimage.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qinputmethod.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qkeysequence.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qmatrix.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qpaintdevice.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qpainterpath.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qpalette.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qpen.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qpixelformat.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qpixmap.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qpolygon.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qregion.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qrgb.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qrgba64.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qtextcursor.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qtextdocument.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qtextformat.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qtextoption.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qtgui-config.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qtguiglobal.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qtouchdevice.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qtransform.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qvector2d.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qwindowdefs.h
+ /Users/Peter/anaconda3/include/qt/QtGui/qwindowdefs_win.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QApplication
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QLabel
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QLineEdit
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QPushButton
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QTextEdit
+ /Users/Peter/anaconda3/include/qt/QtWidgets/QWidget
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractbutton.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qabstractscrollarea.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qapplication.h
+ /Users/Peter/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qframe.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qlabel.h
  /Users/Peter/anaconda3/include/qt/QtWidgets/qlineedit.h

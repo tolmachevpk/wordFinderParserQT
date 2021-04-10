@@ -89,18 +89,18 @@ CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/mocs_compilation.cpp -o CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o: CMakeFiles/WordParserFinderQT.dir/flags.make
-CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o: ../Sources/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o -c /Users/Peter/CLionProjects/WordParserFinderQT/Sources/main.cpp
+CMakeFiles/WordParserFinderQT.dir/main.cpp.o: CMakeFiles/WordParserFinderQT.dir/flags.make
+CMakeFiles/WordParserFinderQT.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/WordParserFinderQT.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WordParserFinderQT.dir/main.cpp.o -c /Users/Peter/CLionProjects/WordParserFinderQT/main.cpp
 
-CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/WordParserFinderQT/Sources/main.cpp > CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.i
+CMakeFiles/WordParserFinderQT.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WordParserFinderQT.dir/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/WordParserFinderQT/main.cpp > CMakeFiles/WordParserFinderQT.dir/main.cpp.i
 
-CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/WordParserFinderQT/Sources/main.cpp -o CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.s
+CMakeFiles/WordParserFinderQT.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WordParserFinderQT.dir/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/WordParserFinderQT/main.cpp -o CMakeFiles/WordParserFinderQT.dir/main.cpp.s
 
 CMakeFiles/WordParserFinderQT.dir/Sources/trie.cpp.o: CMakeFiles/WordParserFinderQT.dir/flags.make
 CMakeFiles/WordParserFinderQT.dir/Sources/trie.cpp.o: ../Sources/trie.cpp
@@ -167,32 +167,47 @@ CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/WordParserFinderQT/Sources/lookForMatchesThread.cpp -o CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.s
 
+CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o: CMakeFiles/WordParserFinderQT.dir/flags.make
+CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o: ../Sources/tolower.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o -c /Users/Peter/CLionProjects/WordParserFinderQT/Sources/tolower.cpp
+
+CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Peter/CLionProjects/WordParserFinderQT/Sources/tolower.cpp > CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.i
+
+CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Peter/CLionProjects/WordParserFinderQT/Sources/tolower.cpp -o CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.s
+
 # Object files for target WordParserFinderQT
 WordParserFinderQT_OBJECTS = \
 "CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o" \
+"CMakeFiles/WordParserFinderQT.dir/main.cpp.o" \
 "CMakeFiles/WordParserFinderQT.dir/Sources/trie.cpp.o" \
 "CMakeFiles/WordParserFinderQT.dir/Sources/parser.cpp.o" \
 "CMakeFiles/WordParserFinderQT.dir/Sources/ahoKorasik.cpp.o" \
 "CMakeFiles/WordParserFinderQT.dir/Sources/mainWindow.cpp.o" \
-"CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.o"
+"CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.o" \
+"CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o"
 
 # External object files for target WordParserFinderQT
 WordParserFinderQT_EXTERNAL_OBJECTS =
 
 WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/WordParserFinderQT_autogen/mocs_compilation.cpp.o
-WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/Sources/main.cpp.o
+WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/main.cpp.o
 WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/Sources/trie.cpp.o
 WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/Sources/parser.cpp.o
 WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/Sources/ahoKorasik.cpp.o
 WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/Sources/mainWindow.cpp.o
 WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/Sources/lookForMatchesThread.cpp.o
+WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/Sources/tolower.cpp.o
 WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/build.make
 WordParserFinderQT: /Users/Peter/anaconda3/lib/libQt5Widgets.5.9.7.dylib
 WordParserFinderQT: /Users/Peter/anaconda3/lib/libQt5Gui.5.9.7.dylib
 WordParserFinderQT: /Users/Peter/anaconda3/lib/libQt5Core.5.9.7.dylib
 WordParserFinderQT: CMakeFiles/WordParserFinderQT.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable WordParserFinderQT"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable WordParserFinderQT"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/WordParserFinderQT.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

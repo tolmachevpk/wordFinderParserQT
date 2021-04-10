@@ -2,6 +2,7 @@
 #define WORDPARSERFINDER_LOOKFORMATCHESTHREAD_H
 #include <QThread>
 #include "ahoKorasik.h"
+#include "tolower.h"
 #include <fstream>
 
 class WorkerThread : public QThread {
@@ -14,7 +15,7 @@ public:
     signals:
         void foundWords(QString line);
         void startCalculating();
-        void finishedCalculating();
+        void finishedCalculating(const int &count);
 private:
     std::string words;
 };

@@ -1,6 +1,4 @@
 #include "../Headers/mainWindow.h"
-#include <QGridLayout>
-#include <QMessageBox>
 
 MainWindow::MainWindow(QWidget *parent) : QWidget(parent) {
     QLabel *nameLabel = new QLabel(tr("Write words:"));
@@ -48,7 +46,8 @@ void MainWindow::startWorkInAThread() {
 
     connect(workerThread, SIGNAL(startCalculating()), this, SLOT(started()));
 
-    connect(workerThread, SIGNAL(finishedCalculating()), this, SLOT(finished()));
+    connect(workerThread, SIGNAL(finishedCalculating(const int&)),
+            this, SLOT(finished(const int&)));
 
     workerThread->start();
 }
@@ -57,8 +56,9 @@ void MainWindow::started() {
     status->setText("Calculating...");
 }
 
-void MainWindow::finished() {
-    status->setText("Finished.");
+void MainWindow::finished(const int &k) {
+    std::string res =  "Finished!\nCount of words: " + std::to_string(k);
+    status->setText(QString::fromStdString(res));
 }
 
 void MainWindow::addToResult(const QString &calculatedWord) {

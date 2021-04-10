@@ -34,8 +34,6 @@ private:
     QPushButton *confirmButton;
     std::string words;
     QLabel *status;
-    QPushButton *rerunButton;
-    QMenu *fileMenu;
 };
 
 #endif //WORDPARSERFINDER_MAINWINDOW_H

@@ -1,5 +1,4 @@
 #include "../Headers/ahoKorasik.h"
-#include <iostream>
 
 std::string AhoKorasik::algorithmRealization(const std::string &word) {
     Trie* node = root;
@@ -17,7 +16,6 @@ bool AhoKorasik::out(Trie* node) {
         node = termLink(node);
     }
     for ( ; node != root; node = termLink(node)) {
-        // std::cout << node->word << std::endl;
         return true;
     }
     return false;

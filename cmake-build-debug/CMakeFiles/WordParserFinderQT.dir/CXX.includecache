@@ -74,9 +74,47 @@ string
 vector
 -
 
+/Users/Peter/CLionProjects/WordParserFinderQT/Sources/ahoKorasik.cpp
+../Headers/ahoKorasik.h
+/Users/Peter/CLionProjects/WordParserFinderQT/Headers/ahoKorasik.h
+
 /Users/Peter/CLionProjects/WordParserFinderQT/Sources/mainWindow.cpp
 ../Headers/mainWindow.h
 /Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
+
+/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_lookForMatchesThread.cpp
+../../../Headers/lookForMatchesThread.h
+/Users/Peter/CLionProjects/WordParserFinderQT/Headers/lookForMatchesThread.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_mainWindow.cpp
+../../../Headers/mainWindow.h
+/Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/mocs_compilation.cpp
+D2MWKIZDYH/moc_lookForMatchesThread.cpp
+/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_lookForMatchesThread.cpp
+D2MWKIZDYH/moc_mainWindow.cpp
+/Users/Peter/CLionProjects/WordParserFinderQT/cmake-build-debug/WordParserFinderQT_autogen/D2MWKIZDYH/moc_mainWindow.cpp
+
+/Users/Peter/CLionProjects/WordParserFinderQT/main.cpp
+Headers/mainWindow.h
+/Users/Peter/CLionProjects/WordParserFinderQT/Headers/mainWindow.h
+QDebug
+-
+QApplication
+-
+
+/Users/Peter/anaconda3/include/qt/QtCore/QDebug
+qdebug.h
+/Users/Peter/anaconda3/include/qt/QtCore/qdebug.h
 
 /Users/Peter/anaconda3/include/qt/QtCore/QObject
 qobject.h
@@ -180,6 +218,20 @@ limits.h
 new
 -
 
+/Users/Peter/anaconda3/include/qt/QtCore/qcoreapplication.h
+QtCore/qglobal.h
+-
+QtCore/qstring.h
+-
+QtCore/qobject.h
+-
+QtCore/qcoreevent.h
+-
+QtCore/qeventloop.h
+-
+QtCore/qscopedpointer.h
+-
+
 /Users/Peter/anaconda3/include/qt/QtCore/qcoreevent.h
 QtCore/qnamespace.h
 -
@@ -226,6 +278,10 @@ list
 map
 -
 utility
+-
+
+/Users/Peter/anaconda3/include/qt/QtCore/qeventloop.h
+QtCore/qobject.h
 -
 
 /Users/Peter/anaconda3/include/qt/QtCore/qfile.h
@@ -852,6 +908,22 @@ QtCore/qsharedpointer.h
 QtCore/qrect.h
 -
 
+/Users/Peter/anaconda3/include/qt/QtGui/qguiapplication.h
+QtGui/qtguiglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtGui/qinputmethod.h
+-
+QtCore/qlocale.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+
 /Users/Peter/anaconda3/include/qt/QtGui/qicon.h
 QtGui/qtguiglobal.h
 -
@@ -882,6 +954,12 @@ QtCore/qrect.h
 QtCore/qstring.h
 -
 QtCore/qstringlist.h
+-
+
+/Users/Peter/anaconda3/include/qt/QtGui/qinputmethod.h
+QtGui/qtguiglobal.h
+-
+QtCore/qobject.h
 -
 
 /Users/Peter/anaconda3/include/qt/QtGui/qkeysequence.h
@@ -1118,6 +1196,10 @@ QtGui/qwindowdefs_win.h
 QtGui/qtguiglobal.h
 -
 
+/Users/Peter/anaconda3/include/qt/QtWidgets/QApplication
+qapplication.h
+/Users/Peter/anaconda3/include/qt/QtWidgets/qapplication.h
+
 /Users/Peter/anaconda3/include/qt/QtWidgets/QGridLayout
 qgridlayout.h
 /Users/Peter/anaconda3/include/qt/QtWidgets/qgridlayout.h
@@ -1192,6 +1274,24 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qaction.h
 -
 
+/Users/Peter/anaconda3/include/qt/QtWidgets/qapplication.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qcoreapplication.h
+-
+QtGui/qwindowdefs.h
+-
+QtCore/qpoint.h
+-
+QtCore/qsize.h
+-
+QtGui/qcursor.h
+-
+QtWidgets/qdesktopwidget.h
+-
+QtGui/qguiapplication.h
+-
+
 /Users/Peter/anaconda3/include/qt/QtWidgets/qboxlayout.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -1200,6 +1300,12 @@ QtWidgets/qlayout.h
 QtWidgets/qwidget.h
 -
 limits.h
+-
+
+/Users/Peter/anaconda3/include/qt/QtWidgets/qdesktopwidget.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
 -
 
 /Users/Peter/anaconda3/include/qt/QtWidgets/qdialog.h
